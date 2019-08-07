@@ -1,4 +1,4 @@
-FROM ubi7/php-72
+FROM php-72
 
 RUN INSTALL_PKGS="atomic-openshift-clients" \
  &&     yum  install -y ${INSTALL_PKGS} \
